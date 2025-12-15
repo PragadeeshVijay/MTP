@@ -16,7 +16,7 @@ Session(app)
 # ✅ MySQL Configuration
 app.config["MYSQL_HOST"] = "localhost"
 app.config["MYSQL_USER"] = "root"
-app.config["MYSQL_PASSWORD"] = "Vijay@2004"
+app.config["MYSQL_PASSWORD"] = "your_password"
 app.config["MYSQL_DB"] = "movie_booking"
 app.config["MYSQL_CURSORCLASS"] = "DictCursor"
 
@@ -144,3 +144,4 @@ def book_ticket():
 
 if __name__ == "__main__":
     app.run(debug=True)
+
